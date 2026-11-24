@@ -1,12 +1,10 @@
-### Hi, I'm Adrian 👋
+## Adrian Louise Sevilla
 
-Computer Science student at **FEU Institute of Technology**. I like building software that is safe by design and backing every claim with something you can re-run.
+Computer Science student at FEU Institute of Technology. I work on memory-safety tooling in Rust and C++, and on image processing in Python.
 
-- 🔐 Building memory-safety tooling in **Rust** and **C++**: [Basti-on](https://github.com/adisafairy/basti-on)
-- 🩺 Thesis: [WoundQuant](https://github.com/adisafairy/woundquant-app), wound tissue quantification with **OpenCV** (r = 0.85–0.92 vs. expert estimates)
-- 📫 Reach me at **adrianismou@gmail.com**
+Email: adrianismou@gmail.com
 
-### 🛠️ Tech Stack
+### Tech stack
 
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
@@ -20,9 +18,9 @@ Computer Science student at **FEU Institute of Technology**. I like building sof
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-### 🚀 Featured Projects
+### Projects
 
-| Project | What it is | Built with |
+| Project | Description | Stack |
 |---|---|---|
-| [**Basti-on**](https://github.com/adisafairy/basti-on) · [demo](https://basti-on.vercel.app) | A Rust "airlock" that validates DNS packets before a memory-unsafe C++ parser sees them. Differential fuzzing: 1,997 of 7,000 packets crashed the raw parser, 0 got past the airlock. | Rust, C++, ASan, cargo-fuzz |
-| [**WoundQuant**](https://github.com/adisafairy/woundquant-app) · [site](https://woundquant.vercel.app) | BS CS thesis. Measures granulation, slough and necrotic tissue from a wound photo and tracks healing across visits. Runs offline on any Windows PC. | Python, OpenCV, CustomTkinter |
+| [Basti-on](https://github.com/adisafairy/basti-on) ([demo](https://basti-on.vercel.app)) | A Rust layer that validates DNS packets before a memory-unsafe C++ parser reads them. In a 7,000-packet fuzz run, 1,997 packets crashed the raw parser and none got past the guard. | Rust, C++, ASan, cargo-fuzz |
+| [WoundQuant](https://github.com/adisafairy/woundquant-app) ([site](https://woundquant.vercel.app)) | My BS CS thesis. Measures granulation, slough and necrotic tissue from a wound photo and tracks healing across visits. Runs offline on a regular Windows PC. | Python, OpenCV, CustomTkinter |
